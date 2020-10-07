@@ -1,4 +1,4 @@
-# Launchly
+# LaunchDarklySwiftUI
 
 [![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-informational)](#swift-package-manager)
 
