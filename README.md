@@ -33,7 +33,7 @@ dependencies: [
 
 ## Example
 
-Below is an entire SwiftUI application utilizing `LaunchDarklySwiftUI` with default settings, or you can check out a working project [here](https://github.com/ericlewis/LaunchDarklySwiftUI).
+Below is an entire SwiftUI application utilizing `LaunchDarklySwiftUI`.
 
 ```swift
 import SwiftUI
