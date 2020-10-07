@@ -3,7 +3,7 @@
 An easy to use [LaunchDarkly](https://launchdarkly.com) framework that adds support for SwiftUI. Supports iOS 13+, macOS 10.15+, watchOS 6+, tvOS 13+.
 
 # Example
-Below is an entire SwiftUI application utilizing Launchly with default settings, or you can check out a working project [here](https://github.com/ericlewis/LaunchDarklySwiftUI).
+Below is an entire SwiftUI application utilizing Launchly with default settings.
 
 ```swift
 import SwiftUI
