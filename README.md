@@ -15,7 +15,7 @@ An easy to use [LaunchDarkly](https://launchdarkly.com) framework that adds supp
 
 ## Installation
 
-Currently only support is for SPM, feel free to open a PR to add other package managers.
+Current support is only for SPM, feel free to open a PR to add other package managers.
 
 ### Swift Package Manager
 
