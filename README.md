@@ -2,7 +2,16 @@
 
 [![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-informational)](#swift-package-manager)
 
-An easy to use [LaunchDarkly](https://launchdarkly.com) framework that adds support for SwiftUI. Supports iOS 13+, macOS 10.15+, watchOS 6+, tvOS 13+.
+An easy to use [LaunchDarkly](https://launchdarkly.com) framework that adds support for SwiftUI.
+
+## Requirements
+
+| Platform | Version |
+| -------- | ------- |
+| iOS      | 13.0    |
+| watchOS  | 6.0     |
+| tvOS     | 13.0    |
+| macOS    | 10.15   |
 
 ## Installation
 
