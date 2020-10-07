@@ -1,9 +1,30 @@
-# LaunchDarklySwiftUI
+# Launchly
+
+[![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-informational)](#swift-package-manager)
 
 An easy to use [LaunchDarkly](https://launchdarkly.com) framework that adds support for SwiftUI. Supports iOS 13+, macOS 10.15+, watchOS 6+, tvOS 13+.
 
-# Example
-Below is an entire SwiftUI application utilizing Launchly with default settings.
+## Installation
+
+Currently only support is for SPM, feel free to open a PR to add other package managers.
+
+### Swift Package Manager
+
+The [Swift Package Manager](https://swift.org/package-manager/) is a dependency manager integrated into the `swift` compiler and Xcode.
+
+To integrate LaunchDarklySwiftUI into an Xcode project, go to the project editor, and select `Swift Packages`. From here hit the `+` button and follow the prompts using  `https://github.com/ericlewis/LaunchDarklySwiftUI.git` as the URL.
+
+To include LaunchDarklySwiftUI in a Swift package, simply add it to the dependencies section of your `Package.swift` file. And add the product "LaunchDarklySwiftUI" as a dependency for your targets.
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/ericlewis/LaunchDarklySwiftUI.git", .upToNextMinor(from: "1.0.0"))
+]
+```
+
+## Example
+
+Below is an entire SwiftUI application utilizing Launchly with default settings, or you can check out a working project [here](https://github.com/ericlewis/LaunchDarklySwiftUI).
 
 ```swift
 import SwiftUI
@@ -42,20 +63,20 @@ struct LaunchlyApp: App {
 }
 ```
 
-# Project Structure
+## Project Structure
 
-## Extensions
+### Extensions
 - Contains the code for injecting a given `LDClient` into Environment.
 
-## Models
+### Models
 - Contains the code that interacts with the `LDClient`, backing up the Property Wrappers.
 
-## Property Wrappers
+### Property Wrappers
 - The property wrappers to be used within the SwiftUI code
     - @ObservedFlag: monitor variations that will react depending on the `LDClient` configuration injected via `environment`.
     - @ObservedStatus: monitor the LaunchDarkly SDK connection status. 
     
-# License
+## License
 Copyright (c) 2020 Eric Lewis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
