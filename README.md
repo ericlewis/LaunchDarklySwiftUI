@@ -27,7 +27,7 @@ To include `LaunchDarklySwiftUI` in a Swift package, simply add it to the depend
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/ericlewis/LaunchDarklySwiftUI.git", .upToNextMinor(from: "1.0.0"))
+    .package(url: "https://github.com/ericlewis/LaunchDarklySwiftUI.git", .upToNextMinor(from: "1.0.1"))
 ]
 ```
 
