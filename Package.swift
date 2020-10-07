@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "LaunchDarkly+SwiftUI",
+    name: "LaunchDarklySwiftUI",
     platforms: [
         .iOS(.v13),
         .macOS(.v10_15),
@@ -13,8 +13,8 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "LaunchDarkly+SwiftUI",
-            targets: ["LaunchDarkly+SwiftUI"]),
+            name: "LaunchDarklySwiftUI",
+            targets: ["LaunchDarklySwiftUI"]),
     ],
     dependencies: [
         .package(name: "LaunchDarkly", url: "https://github.com/launchdarkly/ios-client-sdk.git", .upToNextMinor(from: "5.1.0")),
@@ -22,7 +22,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "LaunchDarkly+SwiftUI",
+            name: "LaunchDarklySwiftUI",
             dependencies: ["LaunchDarkly", "LaunchDarkly+Combine"],
             path: "Sources")
     ]

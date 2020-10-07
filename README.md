@@ -7,7 +7,7 @@ Below is an entire SwiftUI application utilizing Launchly with default settings,
 
 ```swift
 import SwiftUI
-import Launchly
+import LaunchDarklySwiftUI
 import LaunchDarkly
 
 struct Flags {
