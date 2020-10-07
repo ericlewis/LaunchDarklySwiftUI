@@ -21,9 +21,9 @@ Current support is only for SPM, feel free to open a PR to add other package man
 
 The [Swift Package Manager](https://swift.org/package-manager/) is a dependency manager integrated into the `swift` compiler and Xcode.
 
-To integrate LaunchDarklySwiftUI into an Xcode project, go to the project editor, and select `Swift Packages`. From here hit the `+` button and follow the prompts using  `https://github.com/ericlewis/LaunchDarklySwiftUI.git` as the URL.
+To integrate `LaunchDarklySwiftUI` into an Xcode project, go to the project editor, and select `Swift Packages`. From here hit the `+` button and follow the prompts using  `https://github.com/ericlewis/LaunchDarklySwiftUI.git` as the URL.
 
-To include LaunchDarklySwiftUI in a Swift package, simply add it to the dependencies section of your `Package.swift` file. And add the product "LaunchDarklySwiftUI" as a dependency for your targets.
+To include `LaunchDarklySwiftUI` in a Swift package, simply add it to the dependencies section of your `Package.swift` file. And add the product "LaunchDarklySwiftUI" as a dependency for your targets.
 
 ```swift
 dependencies: [
@@ -33,7 +33,7 @@ dependencies: [
 
 ## Example
 
-Below is an entire SwiftUI application utilizing Launchly with default settings, or you can check out a working project [here](https://github.com/ericlewis/LaunchDarklySwiftUI).
+Below is an entire SwiftUI application utilizing `LaunchDarklySwiftUI` with default settings, or you can check out a working project [here](https://github.com/ericlewis/LaunchDarklySwiftUI).
 
 ```swift
 import SwiftUI
